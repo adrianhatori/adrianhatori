@@ -10,3 +10,5 @@ Tecnologias que conheço:
   -Bootstrap
   -PHP
   -MySQL
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=adrianhatori)](https://github.com/anuraghazra/github-readme-stats)
