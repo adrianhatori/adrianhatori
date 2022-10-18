@@ -9,8 +9,8 @@
 <hr>
 
 <a href="#" align="center">
-    <img height="180em" width="50%" align="center" src="https://github-readme-stats.vercel.app/api?username=adrianhatori&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" />
-    <img height="180em" width="50%" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrianhatori&layout=compact&langs_count=16&theme=dracula" />
+    <img height="180em" width="45%" align="center" src="https://github-readme-stats.vercel.app/api?username=adrianhatori&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" />
+    <img height="180em" width="45%" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrianhatori&layout=compact&langs_count=16&theme=dracula" />
 </a>
 <br><br>
 
