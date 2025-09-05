@@ -11,12 +11,12 @@
 <body class="bg-stone-900 overflow-x-hidden">
 	
 	<!-- Header com degrade, nele a logo da empresa, o nome e as redes sociais (no modo mobile, as sociais aparecem embaixo da logo e nome, centralizados) -->
-	<header class="bg-gradient-to-b from-pink-950 to-stone-900 text-white p-4 flex flex-col items-center md:flex-row md:justify-between">
+	<header class="bg-gradient-to-b from-transparent to-pink-950 text-white p-4 flex flex-col items-center sm:flex-row sm:justify-between">
 		<div class="flex items-center">
-			<a href="#" class="hover:text-blue-200 w-14 h-14 rounded-full mb-2 md:mb-0">
+			<a href="#" class="hover:text-blue-200 w-10 h-10 rounded-full mb-2 sm:mb-0">
 				<img src="includes/ToriDev.png" alt="LOGO" />
 			</a>
-			<h1 class="hidden md:block text-2xl font-bold ml-4">ToriDev</h1>
+			<h1 class="hidden sm:block text-2xl font-bold ml-4">ToriDev</h1>
 		</div>
 		<div><!-- whatsapp, pagina facebook, github -->
 			<a href="http://wa.me/5547999732193">wpp</a>
@@ -25,19 +25,21 @@
 		</div>
 	</header>	
 	
-	<!-- Seção de conteúdo -->
-	<div class="p-4 sm:px-14">
-		
-		<!-- Minha foto e ao lado uma frase de impacto mencionando dor ou prazer, seguido com a minha atuação e posicionamento no mercado -->
-		<div class="flex flex-col items-center sm:flex-row sm:justify-evenly">
-			<div class="">
-				<img src="includes/_87A1577.png" alt="" class="p-4"/>
-			</div>
-			<div>
-				<h1>No digital não basta aparecer, seu negócio precisa ATRAIR CLIENTES</h1>
-				<h2>Crio Landing Pages que convertem visitas em vendas, com Design que prende atençao e constrói confiança</h2>
-			</div>
+	<!-- Minha foto e ao lado uma frase de impacto mencionando dor ou prazer, seguido com a minha atuação e posicionamento no mercado -->
+	<div class="flex flex-col items-center sm:flex-row sm:justify-evenly bg-pink-950 text-white relative">
+		<div class="">
+			<img src="includes/Adrian.png" alt="" class="w-full h-auto objetct-cover sm:max-w-130" />
+			<div class="sm:hidden absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-stone-900 to-transparent"></div>
 		</div>
+		<div>
+			<h1>No digital não basta aparecer, seu negócio precisa ATRAIR CLIENTES</h1>
+			<h2>Crio Landing Pages que convertem visitas em vendas, com Design que prende atençao e constrói confiança</h2>
+		</div>
+		<div class="hidden sm:block absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-stone-900 to-transparent"></div>
+	</div>	
+	
+	<!-- Seção de conteúdo -->
+	<div class="">
 		
 		<!-- O problema! -->
 		<div>
@@ -79,8 +81,6 @@
 		</div>
 		
 	</div>
-	
-
 
 </body>
 </html>
